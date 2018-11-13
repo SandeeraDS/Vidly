@@ -199,10 +199,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Api\CustomersController.cs" />
+    <Compile Include="Controllers\Api\MoviesController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -261,6 +263,10 @@
     <Compile Include="Migrations\201811121626313_PutAllRequredInMovie1.cs" />
     <Compile Include="Migrations\201811121626313_PutAllRequredInMovie1.Designer.cs">
       <DependentUpon>201811121626313_PutAllRequredInMovie1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811131741365_removeAnotationmovieid.cs" />
+    <Compile Include="Migrations\201811131741365_removeAnotationmovieid.Designer.cs">
+      <DependentUpon>201811131741365_removeAnotationmovieid.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -378,6 +384,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811121626313_PutAllRequredInMovie1.resx">
       <DependentUpon>201811121626313_PutAllRequredInMovie1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131741365_removeAnotationmovieid.resx">
+      <DependentUpon>201811131741365_removeAnotationmovieid.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
